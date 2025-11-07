@@ -31,6 +31,8 @@ Este script está diseñado para actualizar listas de nodos de salida de Tor (IP
     ```
 > Nota: Se ha comentado la parte de envío de correo para evitar configuración adicional. Si deseas usarlo, puedes configurar msmtp y descomentar la sección correspondiente.
 
+![Log](images/image.png)
+
 ## English
 
 This script is designed to update Tor exit node lists (IPv4 and IPv6) and block their traffic on a server using ipset and iptables. It is intended for system administrators who want to reduce automated or abusive traffic coming from the Tor network.
@@ -61,4 +63,6 @@ This script is designed to update Tor exit node lists (IPv4 and IPv6) and block 
     sudo /usr/local/bin/bloquear_tor.sh
     ```
 > Note: The email sending section has been commented out to avoid extra configuration. If desired, you can configure msmtp and uncomment that section.
-# tor-exit-blocker
+
+![Log](images/image.png)
+
