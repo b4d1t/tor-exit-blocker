@@ -61,3 +61,4 @@ This script is designed to update Tor exit node lists (IPv4 and IPv6) and block 
     sudo /usr/local/bin/bloquear_tor.sh
     ```
 > Note: The email sending section has been commented out to avoid extra configuration. If desired, you can configure msmtp and uncomment that section.
+# tor-exit-blocker
