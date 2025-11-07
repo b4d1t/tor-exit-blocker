@@ -29,7 +29,7 @@ Este script está diseñado para actualizar listas de nodos de salida de Tor (IP
     ```bash
     sudo /usr/local/bin/bloquear_tor.sh
     ```
--- Nota: Se ha comentado la parte de envío de correo para evitar configuración adicional. Si deseas usarlo, puedes configurar msmtp y descomentar la sección correspondiente.
+> Nota: Se ha comentado la parte de envío de correo para evitar configuración adicional. Si deseas usarlo, puedes configurar msmtp y descomentar la sección correspondiente.
 
 ## English
 
@@ -60,4 +60,4 @@ This script is designed to update Tor exit node lists (IPv4 and IPv6) and block 
     ```bash
     sudo /usr/local/bin/bloquear_tor.sh
     ```
- -- Note: The email sending section has been commented out to avoid extra configuration. If desired, you can configure msmtp and uncomment that section.
+> Note: The email sending section has been commented out to avoid extra configuration. If desired, you can configure msmtp and uncomment that section.
