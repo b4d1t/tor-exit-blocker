@@ -1,0 +1,26 @@
+# /etc/default/bloquear_tor — sobrescribe los valores por defecto del script.
+# Solo hace falta poner lo que quieras cambiar.
+
+# Cadenas donde bloquear tráfico entrante (las que no existan se saltan solas)
+#CHAINS_V4="INPUT DOCKER-USER ts-input"
+#CHAINS_V6="INPUT DOCKER-USER ts-input"
+
+# Bloquear también conexiones salientes hacia nodos Tor
+#BLOCK_OUTPUT="yes"
+
+# Mínimo de IPs para aceptar una lista descargada
+#MIN_V4=500
+#MIN_V6=50
+
+# IPs que nunca se bloquean (separadas por espacios)
+#ALLOWLIST=""
+
+# Log (vacío = solo journal)
+#LOGFILE="/var/log/bloquear_tor.log"
+#LOG_RATE="5/min"
+
+# Aviso por correo con msmtp. MAIL_ON: error (avisos y errores) | always | never
+#MAIL_TO="tu@correo.com"
+#MAIL_FROM="Servidor <tu@correo.com>"
+#MSMTP_CFG="/root/.msmtprc"
+#MAIL_ON="error"

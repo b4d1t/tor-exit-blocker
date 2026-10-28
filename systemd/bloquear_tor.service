@@ -1,0 +1,10 @@
+[Unit]
+Description=Actualiza el bloqueo de nodos de salida Tor (ipset + iptables)
+Documentation=https://github.com/b4d1t/tor-exit-blocker
+Wants=network-online.target
+After=network-online.target docker.service tailscaled.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/bloquear_tor update
+TimeoutStartSec=10min

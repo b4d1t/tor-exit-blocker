@@ -1,0 +1,7 @@
+/var/log/bloquear_tor.log {
+    monthly
+    rotate 6
+    compress
+    missingok
+    notifempty
+}

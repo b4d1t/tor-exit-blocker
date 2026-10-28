@@ -1,0 +1,11 @@
+[Unit]
+Description=Actualiza la lista de nodos Tor cada 6 horas (y al arrancar)
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=6h
+RandomizedDelaySec=10min
+Persistent=true
+
+[Install]
+WantedBy=timers.target
